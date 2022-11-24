@@ -1,0 +1,48 @@
+1. целые числа, числа с плавающей запятой, булевы значения, строки, кортежи, списки, множества ,словари 
+Словарь —структура данных, которая хранит пары клюцчи. (ключевые слова)
+
+2.
+try:
+    a = int(input('widi ceslo'))
+    b = int(input('widi ceslo'))
+    print(a / b)
+except ValueError:
+        print('Cislo!')
+else:
+        print('okey')
+finally:
+        print('the end')
+
+3.
+
+4.
+['dog', 1, 2, 3]
+
+5.
+6
+
+6.
+1
+3
+9
+
+7.
+
+8.
+
+
+9.
+Random i in range(1,10)
+print(i)
+
+10.
+list_to_sort = [ [1,2,5], [2,3,3], [0,0,0], [7,9,1], [1,1,7], [1,1,1], [3,3,3] ]
+sorted[list_to_sort](key=lambda elem: elem[1])
+
+11.
+number = [1,2,3,4,5,6,7,8,9,10]
+def filter_odd_num(in_num):
+    if(in_num % 2) == 0:
+        return True
+    else:
+        return False
